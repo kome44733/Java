@@ -5,3 +5,20 @@ public class Main {
 		System.out.println("hello, world!");
 	}
 }
+
+1. int形で要素数３の配列numbersを準備します。この時初期値はそれぞれ３，４，９とします
+[16:15]
+2.画面に一桁の数字を入力してくださいと表示します
+新規
+[16:16]
+3.キーボードから数字の入力を受け付け変数input に代入します
+[16:16]
+4.配列でループを回しながらいずれかの要素と等しいかを比べ等しければあたりと表示
+
+int input = new java.util.Scanner(System.in).nextInt();
+int[] numbers = {3,4,9};
+       System.out.println("1桁の数字を入力してください");
+       int input =new java.util.Scanner(System.in).nextInt();
+       for(int result : numbers){
+          if(result == input){
+              System.out.println("アタリ");
